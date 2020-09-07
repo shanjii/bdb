@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div>
         <header>
-          <img className="logo" src={require('../assets/idea.png')} />
+          <img alt="" className="logo" src={require('../assets/idea.png')} />
           <h1 className="title">Brilho do Bem</h1>
         </header>
         <div className="navbuttons">
@@ -31,10 +31,10 @@ class Home extends Component {
           <br />
           <div className="content">
             <div className="images">
-              <img className="img" src={require('../assets/img1.jpg')} />
-              <img className="img" src={require('../assets/img2.jpg')} />
-              <img className="img" src={require('../assets/img3.jpg')} />
-              <img className="img" src={require('../assets/img4.jpg')} />
+              <img alt="" className="img" src={require('../assets/img1.jpg')} />
+              <img alt="" className="img" src={require('../assets/img2.jpg')} />
+              <img alt="" className="img" src={require('../assets/img3.jpg')} />
+              <img alt="" className="img" src={require('../assets/img4.jpg')} />
             </div>
           </div>
           <br />
@@ -42,11 +42,11 @@ class Home extends Component {
             <h2>Contato:</h2>
             <br />
             <div style={{ display: "flex" }}>
-              <img className="icon" src={require('../assets/whatsapp.png')} />
+              <img alt="" className="icon" src={require('../assets/whatsapp.png')} />
               <p className="iconlist">+55 11 97538-8981</p>
             </div>
             <div style={{ display: "flex" }}>
-              <img className="icon" src={require('../assets/instagram.png')} />
+              <img alt="" className="icon" src={require('../assets/instagram.png')} />
               <a className="iconlist" href="https://www.instagram.com/brilho_do_bem/">Instagram</a>
             </div>
             <br />
