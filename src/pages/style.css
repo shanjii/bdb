@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a{
+  color: rgb(48, 48, 48);
+}
+
+a.button {
+  padding: 10px;
+}
+
+a.button:hover {
+  color: #60daff;
+}
+
+body {
+  background-color: #707d83;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+}
+
+.buttonblock {
+  display: flex;
+  margin-left: 10px;
+}
+
+.icon {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 30px;
+}
+
+header {
+  display: flex;
+  background-color: #60daff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+}
+
+.navbuttons {
+  display: flex;
+  background-color: rgb(48, 48, 48);
+}
+
+.button {
+  color: white;
+  font-family: cursive;
+  font-size: large;
+}
+
+.logo {
+  height: 120px;
+  margin-left: 5px;
+}
+
+.title {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: cursive;
+  margin-left: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.button {
+  padding: 10px;
+}
+
+.introduction {
+  font-size: 30px;
+  color: rgb(48, 48, 48);
+  padding-top: 20px;
+  font-family: cursive;
+  text-align: left;
+  margin-left:80px;
+  margin-right: 10vw;
+  padding: 10px;
+}
+
+#contato {
+  font-size: 30px;
+  color: rgb(48, 48, 48);
+  padding-top: 20px;
+  font-family: cursive;
+  text-align: left;
+  margin-left:80px;
+  margin-right: 10vw;
+  padding: 10px;
+}
+
+.content {
+  text-align: center;
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
+
+.insta {
+  height: 50px;
+}
+
+.instagram {
+  display: flex;
+}
+
+.img {
+  margin-top: 0px;
+  height: 30vw;
+}
+
+.iconlist {
+  margin-left: 10px;
+}
+
+.main{
+  margin-top: 30px;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  background-color: rgba(255, 255, 255, 0.685);
+}
+
+@media only screen and (max-width: 1000px) {
+  .main{
+    margin-top: 0px;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    background-color: rgba(255, 255, 255, 0.685);
+  }
+  .introduction{
+    font-size: 25px;
+    padding-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .img{
+    height: 300px;
+  }
+  .button{
+    text-align: center;
+    font-size: 20px;
+  }
+  a.button{
+    padding: 5;
+  }
+  .buttonblock{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #contato {
+    font-size: 25px;
+    color: rgb(48, 48, 48);
+    padding-top: 0px;
+    font-family: cursive;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 5vw;
+    padding: 10px;
+  }
+}
